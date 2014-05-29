@@ -347,7 +347,7 @@ module PLSQL
         [Java::OracleSql::CLOB, nil]
       when "BLOB"
         [Java::OracleSql::BLOB, nil]
-      when "NUMBER"
+      when "NUMBER", "FLOAT"
         [BigDecimal, nil]
       when "PLS_INTEGER", "BINARY_INTEGER"
         [Fixnum, nil]

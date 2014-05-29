@@ -111,7 +111,7 @@ module PLSQL
 
     MATCHING_TYPES = {
       :integer => ['NUMBER', 'PLS_INTEGER', 'BINARY_INTEGER'],
-      :decimal => ['NUMBER', 'BINARY_FLOAT', 'BINARY_DOUBLE'],
+      :decimal => ['NUMBER', 'BINARY_FLOAT', 'BINARY_DOUBLE', 'FLOAT'],
       :string => ['VARCHAR2', 'NVARCHAR2', 'CHAR', 'NCHAR', 'CLOB', 'BLOB'],
       :date => ['DATE'],
       :time => ['DATE', 'TIMESTAMP', 'TIMESTAMP WITH TIME ZONE', 'TIMESTAMP WITH LOCAL TIME ZONE'],
